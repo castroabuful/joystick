@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy-Stick-product-details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="white">
+    <div class="HEADER" style="padding: 30px;">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="D:\new project\.vscode\images\download (2).png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="products.html">products</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="account.html">account</a></li>
+                    </ul>  
+                </nav>
+                <div class="shopping-icon">
+                    <img src="D:\new project\.vscode\images\cart.png" height="30px" width="30px">
+                    <img src=".vscode\images\menu.png" class="menu-icon"
+                     onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+  
+  
+  <div class="small-container cart-page">
+    <table>
+        <tr;">
+            <th>product</th>
+            <th>quantity</th>
+            <th>subtotal</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="number" value="1"></td>
+            <td>$280</td>
+        </tr>
+    </table>
+
+  </div>
+  
+     
+ 
+ </div>
+ <script>
+    var menuitems=document.getElementById("menuitems")
+    menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight="200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight="0px"
+        }
+    }
+ </script>
+</body>
+</html>

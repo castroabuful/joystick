@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy-Stick-product-details-nintendo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+    <div class="HEADER" style="padding: 30px;">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src=".vscode\images\1f579.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="products.html">products</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="account.html">account</a></li>
+                    </ul>  
+                </nav>
+                <div class="shopping-icon">
+                    <img src="D:\new project\.vscode\images\cart.png" height="30px" width="30px">
+                    <img src=".vscode\images\menu.png" class="menu-icon"
+                     onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+  
+  
+  
+  
+   <div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src=".vscode\images\images (8).jpeg" width="100%">
+        </div>
+        <div class="col-2" style="color: white;">
+            <p>pc/accessories</p>
+            <h1>RAZER rgb keyboard</h1>
+            <h4>$290</h4>
+            <select>
+                <option>select color</option>
+                <option>white</option>
+                <option>blue</option>
+                <option>red</option>
+                <option>black</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to cart</a>
+            <h3>product details</h3>
+            <p style="color: aliceblue;">a very percise razer rgb keyboard <br>
+            that has adjustable keys and can easily be cleaned.</p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="row row-2" style="color: white; margin-left:120px ;">
+    <h2>other products</h2>
+    <p style="color: white; margin-right:120px ;">view more</p>
+  </div>
+  
+ <div class="small-container">
+ 
+        <div class="row">
+            <div class="col-4">
+                <img src=".vscode\images\images (6).jpeg">
+                <h4>Xbox one-x(1TB)</h4>
+                <p>$280.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\images (4).jpeg">
+                <h4>Nntendo switch oled(family pack)</h4>
+                <p>$400.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\images (8).jpeg">
+                <h4>RAZER rgb keyboard</h4>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\images (7).jpeg">
+                <h4>Ps5 physical edition-1TB</h4>
+                <p>$70.00</p>
+            </div>
+
+        </div>
+    
+ <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src=".vscode\images\download (2).png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\588248.png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\2K-Games-Logo.png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\images.png" >
+            </div>
+        </div>
+    </div>
+ </div>
+ </div>
+ <script>
+    var menuitems=document.getElementById("menuitems")
+    menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight="200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight="0px"
+        }
+    }
+ </script>
+</body>
+</html>

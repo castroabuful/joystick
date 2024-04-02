@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy-Stick-login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+    <div class="HEADER" style="padding: 30px;">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src=".vscode\images\1f579.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="products.html">products</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="account.html">account</a></li>
+                    </ul>  
+                </nav>
+                <div class="shopping-icon">
+                    <img src="D:\new project\.vscode\images\cart.png" height="30px" width="30px">
+                    <img src=".vscode\images\menu.png" class="menu-icon"
+                     onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+  
+  
+  
+  
+   <div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src=".vscode\images\340692151.webp" width="100%" >
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span>login</span>
+                        <span>register</span>
+                    </div>
+                    <form id="loginform">
+                        <input type="text" placeholder="username">
+                        <input type="password" placeholder="password">
+                        <button type="submit" class="btn">login</button>
+                        <a href="">forgot password</a>
+                    </form>
+
+                    <form id="regform">
+                        <input type="text" placeholder="username">
+                        <input type="email" placeholder="email">
+                        <input type="password" placeholder="password">
+                        <button type="submit" class="btn">register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+        </div>
+    
+ <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src=".vscode\images\download (2).png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\588248.png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\2K-Games-Logo.png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\images.png" >
+            </div>
+        </div>
+    </div>
+ </div>
+ </div>
+ <script>
+    var menuitems=document.getElementById("menuitems")
+    menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight="200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight="0px"
+        }
+    }
+ </script>
+</body>
+</html>

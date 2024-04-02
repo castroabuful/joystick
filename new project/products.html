@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy-Stick-products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="black">
+    <div class="HEADER" style="padding: 30px;">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src=".vscode\images\1f579.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="products.html">products</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="account.html">account</a></li>
+                    </ul>  
+                </nav>
+                <div class="shopping-icon">
+                    <img src="D:\new project\.vscode\images\cart.png" height="30px" width="30px">
+                    <img src=".vscode\images\menu.png" class="menu-icon"
+                     onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</div>
+
+ <div class="small-container">
+
+    <div class="row row-2">
+        <h2 style="color: azure;">all products</h2>
+        <select>
+            <option>all products</option>
+            <option>sort by price</option>
+            <option>sort by pupularity</option>
+            <option>sort by sale</option>
+        </select>
+    </div>
+
+
+    <div class="row">
+        <div class="col-4">
+            <img src=".vscode\images\images (1).jpeg">
+            <h4>custom green xbox controller</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src=".vscode\images\images (1).jpeg">
+            <h4>custom green xbox controller</h4>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src=".vscode\images\images (8).jpeg">
+            <h4>RAZER rgb keyboard</h4>
+            <p>$40.00</p>
+        </div>
+        <div class="col-4">
+            <img src=".vscode\images\images (2).jpeg">
+            <h4>Ps5 blue controller</h4>
+            <p>$60.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src=".vscode\images\images (6).jpeg">
+                <h4>Xbox one-x(1TB)</h4>
+                <p>$280.00</p>
+            </div>
+            <div class="col-4">
+                <a href="product-details.html"><img src=".vscode\images\images (4).jpeg"></a>
+                <h4>Nntendo switch oled(family pack)</h4>
+                <p>$320.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\images (8).jpeg">
+                <h4>RAZER rgb keyboard</h4>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\download.jpeg">
+                <h4>Ps5 physical edition-1TB</h4>
+                <p>$300.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src=".vscode\images\images (6).jpeg">
+                <h4>Xbox one-x(1TB)</h4>
+                <p>$280.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\images (4).jpeg">
+                <h4>Nntendo switch oled(family pack)</h4>
+                <p>$400.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\images (8).jpeg">
+                <h4>RAZER rgb keyboard</h4>
+                <p>$30.00</p>
+            </div>
+            <div class="col-4">
+                <img src=".vscode\images\download.jpeg">
+                <h4>Ps5 physical edition-1TB</h4>
+                <p>$70.00</p>
+     </div>
+
+     <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+     </div>
+    </div>
+    
+ <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src=".vscode\images\download (2).png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\588248.png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\2K-Games-Logo.png" >
+            </div>
+            <div class="col-5">
+                <img src=".vscode\images\images.png" >
+            </div>
+        </div>
+    </div>
+ </div>
+ </div>
+ <script>
+    var menuitems=document.getElementById("menuitems")
+    menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight="200px"
+        }
+        else
+        {
+            menuitems.style.maxHeight="0px"
+        }
+    }
+ </script>
+</body>
+</html>
